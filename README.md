@@ -1,6 +1,7 @@
 # design_ui
 
-A new Flutter project.
+A Flutter project of a grocery store design ui
+just a bit of design with a little bit of animation
 
 ## Getting Started
 
