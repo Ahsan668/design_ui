@@ -53,6 +53,7 @@ class IntroScreen extends StatelessWidget {
             const Spacer(),
 
             Container(
+              //Slider Button
               child: SliderButton(
                 action: () => Navigator.pushReplacement(
                     context, MaterialPageRoute(builder: (_) => HomePage())),
@@ -81,38 +82,6 @@ class IntroScreen extends StatelessWidget {
                 baseColor: darkTheme ? Colors.black: Colors.white,
               ),
             ),
-            // get started button
-            // GestureDetector(
-            //   onTap: () => Navigator.pushReplacement(
-            //     context,
-            //     MaterialPageRoute(
-            //       builder: (context) {
-            //         return HomePage();
-            //       },
-            //     ),
-            //   ),
-            //    child:
-            //   Container(
-            //     width: 300,
-            //     height: 60,
-            //     padding: const EdgeInsets.all(10),
-            //     decoration: BoxDecoration(
-            //       borderRadius: BorderRadius.circular(40),
-            //       color: darkTheme ? Colors.deepPurple : Colors.green,
-            //     ),
-            //     child: Center(
-            //       child: Text(
-            //         "Get Started",
-            //         style: TextStyle(
-            //           color: Colors.white,
-            //           // fontWeight: FontWeight.bold,
-            //           fontSize: 20,
-            //         ),
-            //       ),
-            //     )
-            //   ),
-            // ),
-
             const Spacer(),
           ],
         ),
